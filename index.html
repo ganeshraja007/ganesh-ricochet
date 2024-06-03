@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricochet Rumble</title>
+    <link rel="stylesheet" href="style.css">
+    <script  defer src="script/timer.js"></script>
+   <!-- <script defer src="script/tankmovements.js"></script> -->
+    <!-- <script defer src="script/clicks.js"></script> -->
+    <script defer src="script/main.js"></script>
+    <script defer src="script/titan.js"></script>
+    <script defer src="script/canon.js"></script>
+    <script defer src="script/ricochet.js"></script>
+    <script defer src="script/semiricochet.js"></script>
+    <script defer src="script/tank.js"></script>
+   
+  
+</head>
+<body>
+    <nav class="navbar">
+      <div class="titlebox">
+        <h1 >Ricochet Rumble</h1>
+      </div>
+     
+       <div class="buttons">
+        
+        <a  id="pause">Pause</a>
+        <a href="newgame.html">New Game</a>
+        <a onclick="cleargame()">Quit</a>
+       
+       </div>
+       
+    
+    </nav>
+    <div class="player1box">
+      <div class="topbox">
+        <h3 id="pl1">Red</h3>
+        <h3 id='toggle'></h3>
+        <p id="player1"></p>
+         <!-- <a href="" id="undo">Undo</a>
+         <a href="">Redo</a> -->
+         <h1 id="counter1">00:30</h1>
+        <div class="timer1" >
+          
+        </div>
+       </div>
+       
+    </div>
+    <div class="parent-cont">
+       
+        <div class="main-cont">
+         <div class="column a">
+           <div class="square"></div>
+           <div class="square">
+           
+           </div>
+           <div class="square"></div>
+           <div class="square"></div>
+           <div class="square"></div>
+           <div class="square"></div>
+           <div class="square"></div>
+           <div class="square"></div>
+         </div>
+         <div class="column b">
+            <div class="square">
+              
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square" >
+              
+            </div>
+            <div class="square"></div>
+          </div>
+          <div class="column c">
+            <div class="square">
+              
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square">
+              <img src="black/canon-black.png" alt="">
+            </div>
+          </div>
+          <div class="column d">
+            <div class="square">
+              <img src="white/canon-white.png" alt="">
+            </div>
+            <div class="square">
+              <img src="white/semiri-white.png" alt="">
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square">
+              <img src="black/tank-black.png" alt="">
+            </div>
+            <div class="square">
+              <img src="black/titan-black.png" alt="">
+            </div>
+          </div>
+          <div class="column e">
+            <div class="square">
+              <img src="white/titan-white.png" alt="">
+            </div>
+            <div class="square">
+              <img src="white/tank-white.png" alt="">
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square">
+              
+            </div>
+            <div class="square">
+              <img src="black/semiri-black.png" alt="">
+            </div>
+            <div class="square">
+              
+            </div>
+          </div>
+          <div class="column f">
+            <div class="square"></div>
+            <div class="square">
+              <img src="white/ricochet-whtie.png" alt="">
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square">
+              <img src="black/ricochet-black.png" alt="">
+            </div>
+            <div class="square"></div>
+          </div>
+          <div class="column g">
+            <div class="square"></div>
+            <div class="square">
+             
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square">
+             
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+          </div>
+          <div class="column h">
+            <div class="square">
+             
+            </div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square">
+             
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="player2box">
+      <div class="bottombox">
+        <h3 id="pl2">White</h3>
+        <h3 id='toggle2'></h3>
+        <!-- <p id="player2"></p> -->
+       
+          <h1 id="counter2">00:30</h1> 
+        
+       </div>
+       
+    </div>
+  </div>
+</body>
+</html>
